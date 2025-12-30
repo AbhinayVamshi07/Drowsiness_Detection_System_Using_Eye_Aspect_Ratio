@@ -12,12 +12,12 @@ This project aims to **detect driver drowsiness in real time** by monitoring eye
 ---
 
 ## Features
-- ✔️ Real-time face & eye detection using webcam  
-- ✔️ Calculates **Eye Aspect Ratio (EAR)** for both eyes  
-- ✔️ Detects prolonged eye closure (indicates sleepiness)  
-- ✔️ Triggers **beep alert** when drowsiness is detected  
-- ✔️ Displays EAR value on screen  
-- ✔️ Draws green eye contours & red alert box during drowsiness  
+- Real-time face & eye detection using webcam  
+- Calculates **Eye Aspect Ratio (EAR)** for both eyes  
+- Detects prolonged eye closure (indicates sleepiness)  
+- Triggers **beep alert** when drowsiness is detected  
+- Displays EAR value on screen  
+- Draws green eye contours & red alert box during drowsiness  
 
 ---
 
@@ -32,7 +32,7 @@ This project aims to **detect driver drowsiness in real time** by monitoring eye
 
 ---
 
-## ⚙️ Constants Used
+## Constants Used
 | Constant | Description |
 |--------|-------------|
 | `EYE_AR_THRESH = 0.25` | EAR threshold to detect closed eyes |
