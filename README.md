@@ -22,12 +22,12 @@ This project aims to **detect driver drowsiness in real time** by monitoring eye
 ---
 
 ##  How It Works
-1️⃣ Detect face using **dlib frontal face detector**  
-2️⃣ Extract **68 facial landmark points**  
-3️⃣ Identify left & right eye regions  
-4️⃣ Calculate **Eye Aspect Ratio (EAR)**  
-5️⃣ If EAR stays below threshold for required time → **Drowsiness Detected**  
-6️⃣ System beeps + shows alert message + highlights face
+1️ Detect face using **dlib frontal face detector**  
+2️ Extract **68 facial landmark points**  
+3️ Identify left & right eye regions  
+4️ Calculate **Eye Aspect Ratio (EAR)**  
+5️ If EAR stays below threshold for required time → **Drowsiness Detected**  
+6️ System beeps + shows alert message + highlights face
 
 
 ---
@@ -54,7 +54,7 @@ You can tune these values according to your environment.
 
 ## Installation
 
-### 1️⃣ Install Required Libraries
+###  Install Required Libraries
 ```bash
 pip install opencv-python
 pip install dlib
